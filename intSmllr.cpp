@@ -31,9 +31,9 @@ int main()
     }
     cout << "Min : " << min << "\n";
     cout << "Max : " << max << "\n";
-    max = min + max;
+    max += min;
     min = max - min;
-    max = max - min;
+    max -= min;
     cout << "Min : " << min << "\n";
     cout << "Max : " << max;
 }
